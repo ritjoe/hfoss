@@ -134,11 +134,11 @@ and/or all of the above.
     <ol>
         <li>
         Create a blog if you don’t already have one. There are lots of free
-        services available. You might try <code><a target="_blank" href="http://wordpress.com">http://wordpress.com</a></code> or
+        services available. You might try <code><a target="_blank" href="http://wordpress.com" style="color:#303f9f">http://wordpress.com</a></code> or
         <code><a target="_blank"
-                href="http://blogspot.com">http://blogspot.com</a></code>, or
+                href="http://blogspot.com" style="color:#303f9f">http://blogspot.com</a></code>, or
         even <code><a target="_blank"
-        href="http://foss.rit.edu">http://foss.rit.edu</a></code>.
+        href="http://foss.rit.edu" style="color:#303f9f">http://foss.rit.edu</a></code>.
         </li>
         <li>Write an introductory post, detailing the process you went through
         to complete the <em>FirstFlight</em> assignment.</li>
