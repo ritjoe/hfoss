@@ -1,0 +1,8 @@
+{% extends "profile.html" %}
+{% block jumbotron %}
+    <h1>Instructor</h1>
+    <p>Failing early and often, so you won't have to</p>
+{% endblock %}
+{% block body %}
+{{ profile(instructor, instructor.get('avatar', "")) }}
+{% endblock %}

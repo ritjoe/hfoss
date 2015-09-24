@@ -17,17 +17,12 @@ instructor:
     name: D. Joe Anderson
     email: deejoe@mail.rit.edu
     irc: dzho
-    avatar: None
-    openhub: None
     twitter: deej0e
     office:
         location: 70-2500
         hours: Tuesday, Thursday, 5:45-6:15pm
     links:
-        blog: None
-        linkedin: None
         github: http://github.com/ritjoe
-        opensource: None
 
 assistant:
     name: Matt Soucy (msoucy)

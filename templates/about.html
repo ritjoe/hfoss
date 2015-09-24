@@ -1,10 +1,11 @@
-<%inherit file="master.mak" />
+{% extends "master.html" %}
 
-<div class="jumbotron">
-    <h1>${course['name']}</h1>
-    <p>${course['desc']}</p>
-</div>
-
+{% block jumbotron %}
+  <h1>Hello, world!</h1>
+  <p>This is a wonderful experiment using Twitter Boostrap, Flask, and Mako to make awesome.</p>
+  <p><a href="#" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+{% endblock %}
+{% block body %}
 <div class="row">
 <div class="col-md-4">
   <h2>Twitter Bootstrap</h2>
@@ -24,3 +25,4 @@
   <p><a class="btn" target="_blank" href="http://www.makotemplates.org/">View details &raquo;</a></p>
 </div><!--/span-->
 </div><!--/row-->
+{% endblock %}
