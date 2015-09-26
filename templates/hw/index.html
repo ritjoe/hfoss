@@ -9,7 +9,7 @@
     <div class="span4">
         <ul class="list-unstyled">
             <li><h2>Tasks</h2></li>
-            {% for hw, loc in hws|dictsort %}
+            {% for hw, loc in assignments|dictsort %}
               <li><a href="{{loc}}">{{hw}}</a></li>
             {% endfor %}
         </ul>
