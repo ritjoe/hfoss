@@ -1,0 +1,84 @@
+{% macro assignment_cell(values) %}
+  <td>
+    {% for _, name, link in values %}
+      <p class="topic ">
+      {% if link %}
+          <a target="_blank" href="{{link}}">{{name|safe}}</a>
+      {% else %}
+          {{name}}
+      {% endif %}
+      </p>
+    {% endfor %}
+  </td>
+{% endmacro %}
+
+{% macro title_cell(ev) %}
+  {% set cats = normalize_categories(ev) %}
+  <td><p class="topic {{cats|join(" ")}} {{"special" if "meetup" in cats else ''}}">
+    {% if 'attach' in ev %}
+        <a target="_blank" href="{{ev.decoded('attach')}}">
+            {{ev['summary']}}
+        </a>
+    {% else %}
+        {{ev['summary']}}
+    {% endif %}
+  </p></td>
+{% endmacro %}
+
+{% macro class_period(n, ev) %}
+  <td class="sessionnumber">{{n}}</td>
+  <td>{{ev.decoded('dtstart').strftime("%x")}}</td>
+  {{title_cell(ev)}}
+  {% set assignments = assignment_data(ev.get('description','')) %}
+  {{ assignment_cell(items_assigned(assignments)) }}
+  {{ assignment_cell(items_due(assignments)) }}
+{% endmacro %}
+
+{% macro hackathon(ev) %}
+  <td class="sessionnumber">***</td>
+  <td>
+    {{ev.decoded('dtstart').strftime("%x %X")}} - {{ev.decoded('dtend').strftime("%x %X")}}
+  </td>
+  {{title_cell(ev)}}
+  <td>{{ev.decoded('location')|default("")}}</td>
+  <td></td>
+{% endmacro %}
+
+{% macro calendar(cal) %}
+<table class="table table-striped table-bordered">
+    <colgroup>
+        <col style="width: 2%;">
+        <col style="width: 2%;">
+        <col style="width: 4%;">
+        <col style="width: 38%;">
+        <col style="width: 26%;">
+        <col style="width: 26%;">
+    </colgroup>
+    <thead><tr>
+        <th colspan="2">Week</th>
+        <th>Day</th>
+        <th>Topic</th>
+        <th>Assigned</th>
+        <th>Due</th>
+    </tr></thead>
+    <tbody style="vertical-align: top;">
+    {% for week in calendar_weeks(cal) %}
+        {% set week_loop = loop %}
+        {% set class_count = 0 %}
+        {% for event in week %}
+        <tr>
+            {% if loop.first %}
+            <td rowspan="{{week|length}}">{{week_loop.index}}</td>
+            {% endif %}
+            {% if 'hackathon' in normalize_categories(event)%}
+                {{hackathon(event)}}
+            {% else %}
+                {% set class_count = class_count + 1 %}
+                {{class_period(class_count, event)}}
+            {% endif %}
+        </tr>
+        {% endfor %}
+    {% endfor %}
+    </tbody>
+</table>
+{% endmacro %}

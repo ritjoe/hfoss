@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 {% macro title() %}
-  {{ course['name'] }}@{{ course['place'] }}
+  {{course.name}}@{{course.place}}
+{% endmacro %}
+{% macro glyphicon(glyph) %}
+<span class="glyphicon glyphicon-{{glyph}}"></span>
 {% endmacro %}
 <html lang="en">
   <head>
@@ -59,12 +62,12 @@
         <div class="col-md-3">
           <div class="well">
             <ul class="list-unstyled">
-              <li><span class="glyphicon glyphicon-calendar"></span> {{course['start']}} &mdash; {{course['end']}}</li>
-              <li><span class="glyphicon glyphicon-bell"></span> {{course['times']}}</li>
-              <li><span class="glyphicon glyphicon-shopping-cart"></span> {{course['course']}}</li>
-              <li><span class="glyphicon glyphicon-map-marker"></span> {{course['location']}}</li>
-              <li><span class="glyphicon glyphicon-envelope"></span>
-              <a href="mailto:{{instructor['email']}}">{{instructor['email']}}</a>
+              <li>{{glyphicon('calendar')}} {{course.start}} &mdash; {{course.end}}</li>
+              <li>{{glyphicon('bell')}} {{course.times}}</li>
+              <li>{{glyphicon('shopping-cart')}} {{course.course}}</li>
+              <li>{{glyphicon('map-marker')}} {{course.location}}</li>
+              <li>{{glyphicon('envelope')}}
+                <a href="mailto:{{instructor.email}}">{{instructor.email}}</a>
               </li>
             </ul>
           </div>
