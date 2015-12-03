@@ -40,7 +40,7 @@
           {% if data['links']|default([])|length %}
           <h2>Elsewhere</h2>
           <ul class="list-unstyled">
-          {% for key, link in instructor['links'].iteritems() %}
+          {% for key, link in instructor['links'].items() %}
               <li><a href="{{link}}">{{key}}</a></li>
           {% endfor %}
           </ul>

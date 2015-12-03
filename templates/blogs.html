@@ -69,7 +69,7 @@
                 {% endif %}
             {% endfor %}
           {% else %}
-            {% for key, loc in hw.iteritems() %}
+            {% for key, loc in hw.items() %}
               <li><a target="_blank" href="{{loc}}">{{key}}</a></li>
             {% endfor %}
           {% endif %}

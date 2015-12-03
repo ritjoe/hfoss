@@ -5,7 +5,7 @@
 {% endblock %}
 {% block body %}
 <div class="row">
-  {% for res_type, res_list in resources.iteritems() if res_type != 'links' %}
+  {% for res_type, res_list in resources.items() if res_type != 'links' %}
     <div class="col-sm-4 padded">
       <h2>{{res_type}}</h2>
       <ul class="list-unstyled">
