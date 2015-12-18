@@ -1,9 +1,11 @@
-<%inherit file="../master.mak"/>
+{% extends "../master.mak" %}
 
-<p><em>
-  HFOSS is not a lawyer, and this does not constitute legal advice.
-</em></p>
+{% block jumbotron %}
+    <h1>Quiz 2</h1>
+	<p>HFOSS is not a lawyer, and this is not legal advice</p>
+{% endblock %}
 
+{% block body %}
 <p>
 1) Please expand each of the following acronyms (1 pt each):
 
@@ -82,11 +84,11 @@ to the description of that license element below (1 pt for each match).
     6.4) BY ___
   </li>
 </ul>
-    
+
 <ul>
   <li>
     A) You must convey the same rights "downstream" that were conveyed to you by
-"upstream".  
+"upstream".
   </li>
   <li>
     B) You must attribute the contributions of the original or upstream creators of
@@ -140,7 +142,7 @@ describing any of them. (1pt each)
     10.4)
   </li>
 </ul>
-    
+
 </p>
 
 
@@ -163,3 +165,4 @@ describing any of them. (1pt each)
         <li>Send deejoe a pull request. Once your pull-request is accepted, you have completed the quiz.</li>
     </ol>
 </div>
+{% endblock %}

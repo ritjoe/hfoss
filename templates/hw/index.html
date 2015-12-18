@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block jumbotron %}
+  <h1>HW</h1>
+  <p>"Work From Home" gets better later, promise.</p>
+{% endblock %}
+{% block body %}
+<div class="row-fluid">
+    <div class="span4">
+        <ul class="list-unstyled">
+            <li><h2>Tasks</h2></li>
+            {% for hw, loc in assignments|dictsort %}
+              <li><a href="{{loc}}">{{hw}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}

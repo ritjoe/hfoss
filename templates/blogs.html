@@ -1,0 +1,102 @@
+{% extends "master.html" %}
+{% block head %}
+  <script src="/static/js/pace.min.js"></script>
+  <script src="/static/js/jquery.js"></script>
+  <link href="/static/css/pace.css" rel="stylesheet" />
+  <script>
+    /**
+     * getPostCount
+     *
+     *
+     */
+    function getPostCount(username, feed) {
+      var target = {{target_number|int}};
+      $.ajax({
+        url: "/blog/" + feed,
+        method: "GET",
+        dataType: "json",
+        success: function(data) {
+          var count = data['number'];
+          $('span#' + username).text(count);
+          if (count >= target) {
+            $('span#' + username).addClass('label-success');
+          } else if (count >= target * 0.8) {
+            $('span#' + username).addClass('label-warning');
+          } else {
+            $('span#' + username).addClass('label-danger');
+          }
+        }
+      });
+    }
+
+    $(document).ready(function() {
+      $.each($("div.student"), function(index, elem) {
+        var username = $(elem).data('student');
+        var feed = $(elem).data('feed');
+        getPostCount(username, feed);
+      });
+    });
+  </script>
+{% endblock %}
+{% macro student_block(student) %}
+    <div class="col-sm-4">
+      <div class="student panel panel-info" data-student={{student['irc']}} data-feed={{student['participant_page']}}>
+        <a href="{{student['participant_page']}}">
+          <div class="panel-heading withripple">
+            <h4 class="item panel-title">{{student['irc']}}</h4>
+          </div>
+        </a>
+        <div class="panel-body">
+          <a class="avatar-link" href="{{student['participant_page']}}">
+            <img class="uglymug pull-left" src="{{gravatar(student, 'rit_dce', '@rit.edu')}}" alt="{{student['irc']}}'s Avatar" />
+          </a>
+          <div class="item blog clearfix">
+            <a target="_blank" href="{{student['blog']}}">Blog</a>
+            <span class="label" id={{student['irc']}}></span>
+          </div>
+        <ul class="cardlist list-unstyled">
+          {% for forge_link in student['forges'] %}
+            <li><a target="_blank" href="{{forge_link}}">{{forge_link}}</a></li>
+          {% endfor %}
+
+          {% set hw = student['hw']|default({}) %}
+          {% if student['isActive'] %}
+            {% for key in hw_keys %}
+                {% if key in hw %}
+                  <li><a target="_blank" href="{{hw[key]}}">{{key}}</a></li>
+                {% else %}
+                  <li class="redtext">{{key}}?</li>
+                {% endif %}
+            {% endfor %}
+          {% else %}
+            {% for key, loc in hw.items() %}
+              <li><a target="_blank" href="{{loc}}">{{key}}</a></li>
+            {% endfor %}
+          {% endif %}
+
+          {#
+           # This block used for quick grading reference ;)
+            {% if student.get('name') %}
+              <li>{{student['name']}}</li>
+            {% endif %}
+          #}
+        </ul>
+        </div>
+      </div>
+    </div><!--/span-->
+{% endmacro %}
+{% block jumbotron %}
+  <h1>Participants</h1>
+  <p>Should have {{target_number|int}} blog post(s)</p>
+{% endblock %}
+{% block body %}
+<div class="row">
+  {% for student in student_data %}
+    {{ student_block(student) }}
+    {% if loop.index % 3 == 0 %}
+      </div>
+      <div class="row">
+    {% endif %}
+  {% endfor %}
+</div><!--/row-->
+{% endblock %}

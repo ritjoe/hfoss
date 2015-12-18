@@ -1,0 +1,8 @@
+{% extends "profile.html" %}
+{% block jumbotron %}
+  <h1>{{participant_data['irc']}}</h1>
+  <p>{{participant_data['name']}}</p>
+{% endblock %}
+{% block body %}
+{{ profile(participant_data, gravatar(participant_data, 'rit_dce', '@rit.edu')) }}
+{% endblock %}

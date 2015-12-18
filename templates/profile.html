@@ -1,0 +1,67 @@
+{% extends "master.html" %}
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+<script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
+{% endblock %}
+{% macro profile(data, avatar) %}
+<div class="row">
+    <div class="col-md-4">
+      {% if avatar %}
+      <img width="132" height="132" alt="{{data['name']}}'s avatar" src="{{avatar}}"/>
+      {% endif %}
+      <h2><a href="{{data['blog']}}" target="_blank">Blog</a></h2>
+      <p>
+          {% if data.get('coderwall' ) %}
+              <section class="coderwall" data-coderwall-username="{{data['coderwall']}}" data-coderwall-orientation="horizontal"></section>
+          {% endif %}
+
+          {% if data.get('github') %}
+              <h2><a href="https://github.com/{{data['github']}}" target="_blank">GitHub</a></h2>
+              <iframe src="http://githubbadge.appspot.com/{{data['github']}}" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+          {% endif %}
+
+          {% if data.get('openhub') %}
+            <a href="https://www.openhub.net/accounts/{{data['openhub']}}?ref=Tiny" target="_blank">
+              <img alt="OpenHub profile for {{data['openhub']}}" width="80" height="15" src="https://www.openhub.net/accounts/{{data['openhub']}}/widgets/account_tiny.gif" style="border: 0;" />
+            </a>
+          {% endif %}
+
+          {% if data['forges']|default([])|length %}
+          <h2>Forges</h2>
+          <ul class="forge-list">
+          {% for forge_name in data['forges'] %}
+              <li><a href="{{forge_name}}" target="_blank">{{forge_name}}</a></li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+
+
+          {% if data['links']|default([])|length %}
+          <h2>Elsewhere</h2>
+          <ul class="list-unstyled">
+          {% for key, link in instructor['links'].items() %}
+              <li><a href="{{link}}">{{key}}</a></li>
+          {% endfor %}
+          </ul>
+          {% endif %}
+      </p>
+    </div>
+    <div class="col-md-8">
+        <p>
+            {% if 'bio' in data %}
+                <h2>Bio</h2>
+                {{data['bio']}}
+            {% endif %}
+
+            {% if 'twitter' in data %}
+                <h2>Twitterverse</h2>
+                <a class="twitter-timeline"  href="http://twitter.com/{{data['twitter']}}" target="_blank"  data-widget-id="369925299250544640" data-screen-name={{data['twitter']}}>Tweets by @{{data['twitter']}}</a>
+                {{- raw }}
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                {{ endraw -}}
+            {% endif %}
+        </p>
+    </div>
+</div>
+{% endmacro %}
