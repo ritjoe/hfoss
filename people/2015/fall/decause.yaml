@@ -1,0 +1,10 @@
+# Hackademic and Upstream Dev for Ofcourse. Fedora Community Lead & Council: http://whatcanidoforfedora.org
+name: decause
+blog: http://decausemaker.org
+feed: http://decausemaker.org/rss.xml
+forges:
+  - http://github.com/decause
+irc: decause
+rit_dce: remydcsi
+hw:
+  firstflight: http://decausemaker.org/posts/swimmingupstream.html
