@@ -11,10 +11,13 @@ hw:
   - blog03 
   - bugfix
   - blog04 
-#  - quiz1
+  - commarchteam
+  - quiz1
   - blog05 
-#  - litreview2
-#  - blog06 
+  - blog06 
+  - commarchreport
+  - commarchpreso
+  - litreview2
 #  - blog07 
 #  - blog08 
 #  - blog09 
@@ -24,9 +27,6 @@ hw:
 #  - blog14
 #  - blog15
 #  - bugreport
-#  - teamprop1
-#  - commarchreport
-#  - commarchpreso
   - meetup2
 #  - meetup3
 #  - curriculum
