@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="29cm" height="19cm" viewBox="-270 39 578 362" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="19.3667" cy="344.667" rx="88.5673" ry="55.0336"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="19.3667" cy="344.667" rx="88.5673" ry="55.0336"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="19.3667" y="348.567">
+        <tspan x="19.3667" y="348.567">working</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="218.634" cy="95.1921" rx="88.5673" ry="55.0336"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="218.634" cy="95.1921" rx="88.5673" ry="55.0336"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="218.634" y="83.0921">
+        <tspan x="218.634" y="83.0921">fork</tspan>
+        <tspan x="218.634" y="99.0921">origin</tspan>
+        <tspan x="218.634" y="115.092">yourname/hfoss</tspan>
+      </text>
+    </g>
+    <g>
+      <ellipse style="fill: #ffffff" cx="-179.901" cy="97.667" rx="88.5673" ry="55.0336"/>
+      <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="-179.901" cy="97.667" rx="88.5673" ry="55.0336"/>
+      <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="-179.901" y="101.567">
+        <tspan x="-179.901" y="101.567"></tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-127.595" y1="146.628" x2="-20.4575" y2="286.101"/>
+      <polygon style="fill: #000000" points="-15.8887,292.049 -25.9456,287.165 -20.4575,286.101 -18.0153,281.073 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-15.8887,292.049 -25.9456,287.165 -20.4575,286.101 -18.0153,281.073 "/>
+    </g>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="184.741" y1="146.037" x2="71.6846" y2="290.048"/>
+      <polygon style="fill: #000000" points="67.0533,295.947 69.2954,284.994 71.6846,290.048 77.1612,291.169 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="67.0533,295.947 69.2954,284.994 71.6846,290.048 77.1612,291.169 "/>
+    </g>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="-89.3313" y1="90.667" x2="120.333" y2="94.9913"/>
+      <polygon style="fill: #000000" points="127.831,95.146 117.73,99.9387 120.333,94.9913 117.936,89.9408 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="127.831,95.146 117.73,99.9387 120.333,94.9913 117.936,89.9408 "/>
+    </g>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="81.9932" y1="305.752" x2="197.208" y2="163.2"/>
+      <polygon style="fill: #000000" points="201.922,157.367 199.525,168.287 197.208,163.2 191.748,162.001 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="201.922,157.367 199.525,168.287 197.208,163.2 191.748,162.001 "/>
+    </g>
+    <g>
+      <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="126.065" y1="107.667" x2="-83.5952" y2="107.667"/>
+      <polygon style="fill: #000000" points="-91.0952,107.667 -81.0952,102.667 -83.5952,107.667 -81.0952,112.667 "/>
+      <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-91.0952,107.667 -81.0952,102.667 -83.5952,107.667 -81.0952,112.667 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1.66667" y="63.3333">
+      <tspan x="1.66667" y="63.3333">fork</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-14.3333" y="132.333">
+      <tspan x="-14.3333" y="132.333">pull request</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="67.6667" y="202.333">
+      <tspan x="67.6667" y="202.333">clone</tspan>
+      <tspan x="67.6667" y="218.333">fetch</tspan>
+      <tspan x="67.6667" y="234.333">pull</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="153.667" y="227.333">
+      <tspan x="153.667" y="227.333"></tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="148.667" y="242.333">
+      <tspan x="148.667" y="242.333">push</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-125.333" y="213.333">
+      <tspan x="-125.333" y="213.333">fetch</tspan>
+      <tspan x="-125.333" y="229.333">pull</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-208.901" y="98.667">
+      <tspan x="-208.901" y="98.667">upstream</tspan>
+      <tspan x="-208.901" y="114.667">ritjoe/hfoss</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="218.634" y="95.1921">
+      <tspan x="218.634" y="95.1921"></tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+course:
+    name: HFOSS
+    desc: The RIT Humanitarian Free/Open Source Software Development Course
+    place: RIT
+    start: 2018-01-17
+    end: 2018-04-30
+    blog_start: 2018-01-21
+    blog_end: 2018-04-29
+    times: Mon,Wed,Fri 9:00AM - 9:55AM
+    course: IGME582.01.2175
+    location: Golisano Hall (GOL)-2350
+    final: TBD, 6:30PM-7:45pm, GOL-2350
+    repo: https://github.com/ritjoe/hfoss
+    public_url: https://hfoss.rocfoss.org/
+
+instructor:
+    name: D. Joe Anderson
+    email: deejoe@mail.rit.edu
+    irc: dzho
+    avatar: https://deejoe.etrumeus.com/r-pentonimo.png
+    openhub: None
+    twitter: None
+    office:
+        location: GOL-2500
+        hours: Wednesday 4:15-5:15pm
+    links:
+        blog: http://deejoe.etrumeus.com/update
+        linkedin: None
+        github: https://github.com/ritjoe
+        opensource: None
+
+assistant:
+    name: None
+    email: None
+    irc: None

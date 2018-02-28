@@ -1,0 +1,44 @@
+#hfoss
+name: Alex Wacker
+avatar: alex@alexwacker.com
+blog: https://blog.alexwacker.com
+feed: https://blog.alexwacker.com/?feed=rss2
+email: alex@alexwacker.com
+major: Information Technology + Networking & Systems Administration Minor
+irc: Awmusic12635
+rit_dce: adw4520
+forges:
+  - https://github.com/FOSSRIT
+  - https://github.com/Awmusic12635
+  
+bio: IT major with a sysadmin background as well. Involved in FOSS@RIT and RITLUG. 
+hw:
+  firstflight: https://blog.alexwacker.com/2017/01/hfoss-first-flight/
+  litreview1: https://blog.alexwacker.com/2017/02/hfoss-what-is-open-source-review/
+  litreview2: https://blog.alexwacker.com/2017/03/hfoss-litrereview2/
+  litreview3: https://blog.alexwacker.com/2017/03/hfoss-litrereview3/
+  quiz1: https://blog.alexwacker.com/2017/03/hfoss-quiz1/
+  quiz2: https://blog.alexwacker.com/2017/04/hfoss-quiz-2/
+  blog01: https://blog.alexwacker.com/2017/01/hfoss-first-flight/
+  blog02: https://blog.alexwacker.com/2017/02/the-centralization-of-open-source-to-github/
+  blog03: https://blog.alexwacker.com/2017/02/hfoss-the-role-of-marketing-in-open-source/
+  blog04: https://blog.alexwacker.com/2017/02/sparse-checkout/
+  blog05: https://blog.alexwacker.com/2017/03/hfoss-open-source-documentation/
+  blog06: https://blog.alexwacker.com/2017/03/web-browsing-privacy-under-threat/
+  blog07: https://blog.alexwacker.com/2017/03/hfoss-patent-riders/ 
+  blog08: https://blog.alexwacker.com/2017/04/hfoss-reasonable-disclosure/
+  blog09: https://blog.alexwacker.com/2017/04/how-to-ask-for-help/
+  blog10: https://blog.alexwacker.com/2017/04/not-understanding-the-user/
+  blog11: https://blog.alexwacker.com/2017/04/tracking-terms-of-service-in-git/
+  blog12: https://blog.alexwacker.com/2017/05/homework-and-open-source/ 
+  blog13: https://blog.alexwacker.com/2017/05/my-adventure-wit…ngo-static-files/
+  smoketest: https://blog.alexwacker.com/2017/02/hfoss-xo-smoke-test/
+  bugfix: https://blog.alexwacker.com/2017/02/hfoss-bugfix/
+  commarchteam: https://blog.alexwacker.com/2017/03/hfoss-team-proposal/
+  commarchreport: https://blog.alexwacker.com/2017/03/hfoss-commarch/
+  teamprop2: https://blog.alexwacker.com/2017/04/hfoss-team-proposal-2/
+  finalrepo: https://github.com/CoffeeFrame/SNAIL
+  meetup1: https://blog.alexwacker.com/2017/05/hfoss-meetup-1/
+  meetup2: https://blog.alexwacker.com/2017/05/hfoss-meetup-2/
+  meetup3: https://blog.alexwacker.com/2017/05/hfoss-meetup-3/
+  meetup4: https://blog.alexwacker.com/2017/05/hfoss-meetup-4/

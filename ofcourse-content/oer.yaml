@@ -1,0 +1,17 @@
+# Resource Links:
+# Underscores will be replaced with spaces
+
+books:
+  Producing_Open_Source_Software: "http://producingoss.com/"
+  Open_Sources:_Voices_From_The_Open_Source_Revolution: "http://www.oreilly.com/openbook/opensources/book/"
+  Free_as_in_Freedom_2.0: "https://archive.org/details/faif-2.0"
+videos:
+  Linus_Torvalds_Git_Talk: "http://www.youtube.com/watch?v=4XpnKHJAok8"
+  FSF_30_Year_Video: "http://static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm"
+  Open_Source_Stories_Penn_Manor: "http://summitblog.redhat.com/2015/06/24/open-source-stories-penn-manor-the-power-of-open-in-education/"
+#challenges:
+#  How_To_Use_Bash: "http://lmgtfy.com/?q=how+to+use+bash"
+decks:
+  Ryan_Scott_Brown_Git_Talk: "http://rsb.io/talks/git/"
+
+

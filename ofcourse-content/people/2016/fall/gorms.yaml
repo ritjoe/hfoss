@@ -1,0 +1,31 @@
+#hfoss
+name: Patrick Gormley
+avatar: None
+blog: http://journeyintofoss.blogspot.com/
+feed: http://journeyintofoss.blogspot.com/feeds/posts/default 
+email: pmg8057@gmail.com
+major: Game Design And Development
+irc: gorms
+rit_dce: pmg8057
+forges:
+  - https://github.com/PatrickGormley
+  - http://www.gormgames.com/
+bio: 5th year GDD student.
+hw:
+  firstflight: http://journeyintofoss.blogspot.com/2016/09/so-what-did-i-learn-from-this-first.html
+  litreview1: http://journeyintofoss.blogspot.com/2016/09/lit-review-1.html
+  blog04: http://journeyintofoss.blogspot.com/2016/09/open-source-knowledge.html
+  quiz1: http://journeyintofoss.blogspot.com/2016/09/humanitarian-free-and-open-source.html
+  bugfix: http://journeyintofoss.blogspot.com/2016/09/first-bug-fix-for-open-source.html
+  blog05: http://journeyintofoss.blogspot.com/2016/09/proprietary-software-and-me.html
+  blog07: http://journeyintofoss.blogspot.com/2016/10/free-as-in-sublime-and-beer.html
+  blog08: http://journeyintofoss.blogspot.com/2016/10/commarch-post-mortem.html
+  blog09: http://journeyintofoss.blogspot.com/2016/11/pycut-attempts-to-get-it-running.html
+  blog10: http://journeyintofoss.blogspot.com/2016/11/open-source-science.html
+  blog11: http://journeyintofoss.blogspot.com/2016/11/proposed-pycut-improvement-ideas.html
+  blog12: http://journeyintofoss.blogspot.com/2016/12/install-run-pygames-guide-for-future.html
+  smoketest: http://journeyintofoss.blogspot.com/2016/09/xo-laptop-smoke-test.html
+  litreview2: http://journeyintofoss.blogspot.com/2016/10/the-ethics-of-unpaid-labor-and-oss.html
+  commarchreport: http://journeyintofoss.blogspot.com/2016/10/commarch-report-godot-game-engine.html
+  commarchpreso: https://docs.google.com/presentation/d/1WuaJFb3K5glkwiMUcwi4njwQAk4FkeA-pKWYKnFvPeM/edit#slide=id.p
+  quiz2: http://journeyintofoss.blogspot.com/2016/12/hfoss-quiz-2.html
