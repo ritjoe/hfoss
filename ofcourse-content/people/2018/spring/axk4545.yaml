@@ -8,7 +8,6 @@ major: Networking and Systems Administration
 irc: axk4545
 rit_dce: axk4545
 forges:
-  - https://github.com/axk4545
   - https://gitlab.com/axk4545/
 bio: I am a student in the Networking and Systems Administration program at Rochester Institute of Technology. I have a very strong and passionate interest in Linux and the free and open source software community. I have been using varying distributions of Linux for roughly 7 years. I am currently using Red Hat based Fedora Linux as a primary OS. 
 hw:
@@ -27,18 +26,18 @@ hw:
   blog07: https://axk4545.me/2018/03/05/litrev2
   litreview2: https://axk4545.me/2018/03/05/litrev2
   quiz1: https://axk4545.me/2018/03/07/quiz1
-  commarchteam: https://github.com/axk4545/hfoss-commarch/blob/master/teamproposal.md
+  commarchteam: https://gitlab.com/axk4545/hfoss-commarch/blob/master/teamproposal.md
   blog08: https://axk4545.me/2018/03/21/litrev3
   litreview3: https://axk4545.me/2018/03/21/litrev3
-  commarchreport: https://github.com/axk4545/hfoss-commarch/blob/master/report.md
+  commarchreport: https://gitlab.com/axk4545/hfoss-commarch/blob/master/report.md
   commarchpreso: https://axk4545.me/2018/03/26/commarch-results/
   blog09: https://axk4545.me/2018/03/28/TigerOS/
   blog10: https://axk4545.me/2018/04/04/copyright/
-  finalproposal: https://github.com/axk4545/hfoss-sugar-snake/blob/master/proposal.md
-  finalrepo: https://github.com/axk4545/hfoss-sugar-snake
-  finalpoc: https://github.com/axk4545/hfoss-sugar-snake/releases/tag/prototype 
+  finalproposal: https://gitlab.com/axk4545/hfoss-sugar-snake/blob/master/proposal.md
+  finalrepo: https://gitlab.com/axk4545/hfoss-sugar-snake
+  finalpoc: https://gitlab.com/axk4545/hfoss-sugar-snake/releases/tag/prototype 
   blog11: https://axk4545.me/2018/04/11/FOSS/
   blog12: https://axk4545.me/2018/04/19/Sugar/
   quiz2: https://axk4545.me/2018/04/25/quiz2
   blog13: https://axk4545.me/2018/04/25/chromebook-linux/
-  finalpreso: https://axk4545.github.io/hfoss-sugar-snake/
+  finalpreso: https://web.archive.org/web/20200710175055/https://axk4545.github.io/hfoss-sugar-snake/
